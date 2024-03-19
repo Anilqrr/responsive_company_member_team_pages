@@ -1,0 +1,356 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+p{
+    color: rgb(238, 103, 125);
+}
+a{
+    text-decoration: none;
+}
+span{
+    color: rgb(58, 182, 58);
+}
+.back{
+    display: flex;
+    justify-content: center;
+}
+.back button{
+    background-color: azure;
+    width: 100px;
+    padding: 5px;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.company-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin:10px auto;
+    width: 90%;
+    text-align: center;
+}
+.company-info .c-name{
+    background-color: rgb(21, 82, 9);
+    padding: 5px;
+    color: white;
+    border-radius: 10px;
+    box-shadow: 1px 0px 3px 1px rgb(105, 202, 129);
+}
+.company-info p{
+    color: black;
+    margin: 20px 0px;
+}
+.line{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 80%;
+    height: 1px;
+    /* background-color: red; */
+    border-bottom: dotted;
+    border-color: black;
+}
+.container{
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 90%;
+    /* background-color: aqua; */
+}
+
+/* leader */
+
+.container .leader{
+    width: 70%;
+    text-align: center;
+    /* background-color: aquamarine; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 1px 1px 1px 1px blueviolet;
+}
+
+.container .leader h3{
+    margin: 15px auto;
+}
+.container .leader .l-name{
+    background-color: rgb(9, 35, 82);
+    text-align: center;
+    padding: 5px;
+    color: white;
+    width: min-content;
+    border-radius: 10px;
+    box-shadow: 2px 0px 2px 1px rgb(15, 91, 114);
+}
+.container .leader .box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 70%;
+    margin: auto;
+    gap: 5px;
+    box-shadow: 1px 1px 1px 1px blueviolet;
+}
+.container .leader .l-info{
+    margin: 10px auto;
+}
+.container .leader .l-info img{
+    height: 50px;
+} 
+
+/* developer */
+.container .developer{
+    margin: 20px auto;
+    width: 70%;
+    text-align: center;
+    /* background-color: aquamarine; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 1px 1px 1px 1px blueviolet;
+}
+.container .developer .d-name{
+    background-color: rgb(9, 35, 82);
+    text-align: center;
+    padding: 5px;
+    color: white;
+    width: min-content;
+    border-radius: 10px;
+    box-shadow: 2px 0px 2px 1px rgb(15, 91, 114);
+    margin-bottom: 10px;
+}
+.container .developer .box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    box-shadow: 1px 1px 1px 1px blueviolet;
+    /* margin: auto; */
+    gap: 5px;
+}
+.container .developer .box .d-info{
+    margin: 10px auto;
+}
+.container .developer .box .d-info img{
+    height: 50px;
+}
+
+/* sale and marketing */
+.container .sales{
+    margin: 20px auto;
+    width: 70%;
+    text-align: center;
+    /* background-color: aquamarine; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 1px 1px 1px 1px blueviolet;
+}
+.container .sales .s-name{
+    background-color: rgb(9, 35, 82);
+    text-align: center;
+    padding: 5px;
+    color: white;
+    width: max-content;
+    border-radius: 10px;
+    box-shadow: 2px 0px 2px 1px rgb(15, 91, 114);
+    margin-bottom: 10px;
+}
+.container .sales .box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    /* margin: auto; */
+    box-shadow: 1px 1px 1px 1px blueviolet;
+    gap: 5px;
+}
+.container .sales .box .s-info{
+    margin: 10px auto;
+}
+.container .sales .box .s-info img{
+    height: 50px;
+}
+
+/* list leader */
+.list-leader{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px auto;
+}
+.list-leader .l-name{
+    background-color: rgb(25, 25, 100);
+    color: white;
+    padding: 7px;
+    width: max-content;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 1px 1px 10px 2px wheat;
+}
+.list-leader .box{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin: 10px auto;
+    text-align: center;
+    box-shadow: 1px 1px 1px 1px blueviolet;
+}
+
+.list-leader .box img{
+    height: 40px;
+    text-align: center;
+}
+.list-leader .box img:hover{
+    cursor: pointer;
+    box-shadow: 1px 1px 10px 2px beige;
+}
+
+/* leader info */
+.info-leader{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 20px auto;
+}
+.info-leader img{
+    margin: 20px;
+    height: 70px;
+}
+.info-leader h4{
+    margin: 20px;
+}
+
+/* list developer */
+
+.list-developer{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px auto;
+}
+.list-developer .d-name{
+    background-color: rgb(25, 25, 100);
+    color: white;
+    padding: 7px;
+    width: max-content;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 1px 1px 10px 2px wheat;
+}
+.list-developer .box{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin: 10px auto;
+    text-align: center;
+    box-shadow: 1px 1px 1px 1px blueviolet;
+}
+
+.list-developer .box img{
+    height: 40px;
+    text-align: center;
+}
+.list-developer .box img:hover{
+    cursor: pointer;
+    box-shadow: 1px 1px 10px 2px beige;
+}
+
+/* info developer */
+
+.info-developer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 20px auto;
+}
+.info-developer img{
+    margin: 20px;
+    height: 70px;
+}
+.info-developer h4{
+    margin: 20px;
+}
+
+/* list sales marketing */
+
+.list-sales{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px auto;
+}
+.list-sales .s-name{
+    background-color: rgb(25, 25, 100);
+    color: white;
+    padding: 7px;
+    width: max-content;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 1px 1px 10px 2px wheat;
+}
+.list-sales .box{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin: 10px auto;
+    text-align: center;
+    box-shadow: 1px 1px 1px 1px blueviolet;
+}
+
+.list-sales .box img{
+    height: 40px;
+    text-align: center;
+}
+.list-sales .box img:hover{
+    cursor: pointer;
+    box-shadow: 1px 1px 10px 2px beige;
+}
+
+/* info sales and marketing */
+
+.info-sales{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 20px auto;
+}
+.info-sales img{
+    margin: 20px;
+    height: 70px;
+}
+.info-sales h4{
+    margin: 20px;
+}
